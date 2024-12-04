@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="paginaVideo.css">
+    <title>Peliculas</title>
+    <link href='https://unpkg.com/boxicons/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="contenedor">
+        <nav class="menus">
+            <div class="links">
+                <h1>NETFLIX</h1>
+                <a href="">Inicio</a>
+                <a href="">Series</a>
+                <a href="">Peliculas</a>
+                <a href="">Novedades populares</a>
+                <a href="">Mi lista</a>
+                <a href="">Explorar por idiomas</a>
+            </div>
+            <div class="iconos">
+                <i class='bx bx-search-alt-2' ></i>
+                <i class='bx bx-bell' ></i>
+                <div class="perfil" onclick="kenny()">
+                    <img src="https://i.pinimg.com/736x/89/7a/a2/897aa21b38792c02187a475b2a8c344e.jpg" alt="">
+                </div>
+            </div>
+            
+            
+        </nav>
+        <div class="video">
+            <video autoplay loop muted>
+                <source src="Minions_ Nace un Villano – Tráiler Oficial (Universal Pictures) HD.mp4" type="video/mp4">
+                
+            </video>
+        </div>
+        <div class="informacion">
+            <img src="https://image.tmdb.org/t/p/original/6VZqlIPqWbHracrY3BxGfyrEN1I.png" alt="">
+            <div class="titulo">
+                <img src="https://www.logocrea.com/wp-content/uploads/2016/07/zanahoria1.png" alt="">
+                <h1>Num 3 en Peliculas hoy</h1>
+            </div>
+            <div class="texto">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt voluptatem laboriosam facere quibusdam provident perferendis possimus praesentium doloribus. Officia recusandae qui dolores ab nulla sit delectus non dignissimos aliquid assumenda!</p>
+            </div>
+            <div class="botones">
+                <button class="ver" onclick="ver()"><i class='bx bx-play'></i>Reproducir</button>
+                <button class="info" onclick="info()"><i class='bx bx-calendar-exclamation' ></i>Mas informacion </button>
+            </div>
+        </div>
+    </div>
+    <!-- para llamar a javascrpit -->
+     <script src="script.js"></script>
+</body>
+</html>

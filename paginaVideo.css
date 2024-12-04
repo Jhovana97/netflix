@@ -1,0 +1,132 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.contenedor{
+    position: relative;
+}
+.menus{
+    background-color: rgba(0, 0, 0, 0.445);
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 0%;
+}
+.links,.iconos{
+    padding: 0 15px;
+}
+.links a{
+    text-decoration: none;
+    color: #000;
+    margin: 0 10px;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+}
+.perfil{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    cursor: pointer;
+}
+.perfil img{
+    width: 100%;
+    height: 100%;
+}
+.iconos{
+    display: flex;
+    align-items: center;
+}
+.iconos i{
+    margin: 0 10px;
+    font-size: 20px;
+    color: #fff;
+}
+.links{
+    display: flex;
+    align-items: center;
+}
+.links h1{
+    margin: 0 15px;
+    color: red;
+    font-family: "Roboto", sans-serif;
+
+}
+.video{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+.video video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.informacion{
+    /* background-color: aqua; */
+    width: 40%;
+    height: 400px;
+    position: absolute;
+    top: 30%;
+    left: 3%;
+}
+.informacion img{
+    width: 90%;
+    height: 50%;
+}
+.titulo{
+    display: flex;
+    align-items: center;
+}
+.titulo img{
+    width: 35px;
+    height: 35px;
+}
+.titulo h1{
+    margin: 0;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-size: 23px;
+    font-weight: 700;
+}
+.texto{
+    width: 75%;
+    color: #fff;
+    
+}
+.texto p{
+    font-family: "Roboto", sans-serif;
+}
+.ver{
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 6px 15px;
+}
+.ver i{
+    font-size: 32px;
+}
+.botones{
+    display: flex;
+    padding: 10px;
+
+}
+.botones button{
+    border: none;
+    margin: 0 10px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.info{
+    background-color: rgba(56, 55, 55, 0.66);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 6px 15px;
+}.info i{
+    font-size: 32px;
+}
